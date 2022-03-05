@@ -53,18 +53,20 @@
   "model": "webapp.review",
   "pk": 1,
   "fields": {
+    "author": 1,
     "product": 1,
-    "review_text": "Шикарный аппарат, но очень дорого!",
-    "grade": 3,
+    "review_text": "Шикарный аппарат, но очень дорого!!!",
+    "grade": 4,
     "moderated": false,
     "created": "2022-03-05T07:58:31.785Z",
-    "updated": "2022-03-05T07:58:48.029Z"
+    "updated": "2022-03-05T11:10:01.089Z"
   }
 },
 {
   "model": "webapp.review",
   "pk": 2,
   "fields": {
+    "author": 1,
     "product": 1,
     "review_text": "Камера здорово снимает видео.",
     "grade": 4,
@@ -77,6 +79,7 @@
   "model": "webapp.review",
   "pk": 3,
   "fields": {
+    "author": 1,
     "product": 1,
     "review_text": "Плохо держит заряд!",
     "grade": 3,
@@ -89,18 +92,20 @@
   "model": "webapp.review",
   "pk": 4,
   "fields": {
+    "author": 1,
     "product": 2,
-    "review_text": "Машина мечты! Просто Пушка! Ездил на своем почти 100К км. ДВС без нареканий!",
+    "review_text": "Машина мечты! Просто Пушка! Ездил на своем почти 100К км. ДВС без нареканий! Super!",
     "grade": 5,
     "moderated": false,
     "created": "2022-03-05T08:01:19.798Z",
-    "updated": "2022-03-05T08:01:19.798Z"
+    "updated": "2022-03-05T11:13:10.788Z"
   }
 },
 {
   "model": "webapp.review",
   "pk": 5,
   "fields": {
+    "author": 1,
     "product": 2,
     "review_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae massa bibendum, euismod sapien vel, iaculis orci. Donec a orci ut turpis euismod lobortis. Suspendisse vel volutpat velit. Integer faucibus consequat felis nec gravida. Aliquam finibus tincidunt felis, in tincidunt nunc. Donec metus massa, consequat eget hendrerit in, ultrices ac risus. Aliquam in lorem volutpat, posuere odio eu, tincidunt dolor.",
     "grade": 4,
@@ -113,6 +118,7 @@
   "model": "webapp.review",
   "pk": 6,
   "fields": {
+    "author": 1,
     "product": 2,
     "review_text": "Fusce vehicula egestas odio, vitae elementum nunc dignissim eu. Morbi hendrerit odio eu accumsan sodales. Nullam in dapibus enim. Maecenas hendrerit massa in orci ullamcorper, ullamcorper accumsan elit rutrum. Quisque non lacus semper, sodales nulla et, pretium nibh.",
     "grade": 5,
@@ -125,6 +131,7 @@
   "model": "webapp.review",
   "pk": 7,
   "fields": {
+    "author": 1,
     "product": 3,
     "review_text": "Vivamus id ante felis. Ut at leo in turpis tristique tincidunt. Donec maximus molestie magna at lobortis. Fusce quis urna id lacus ullamcorper eleifend. Aliquam ornare blandit lobortis. Etiam mollis arcu lacus, sodales vehicula quam facilisis et. Etiam enim ligula, euismod at congue a, feugiat eu nisl.",
     "grade": 3,
@@ -137,6 +144,7 @@
   "model": "webapp.review",
   "pk": 8,
   "fields": {
+    "author": 1,
     "product": 3,
     "review_text": "Nullam a gravida quam. Phasellus id viverra augue. Sed eu mattis odio. Maecenas nec mattis odio. Nullam varius, quam id finibus congue, tortor metus mattis ipsum, at facilisis augue erat semper lacus. Nullam molestie, ipsum eu lacinia auctor, erat tortor accumsan ligula, vitae lacinia nibh nulla vel velit.",
     "grade": 4,
@@ -149,6 +157,7 @@
   "model": "webapp.review",
   "pk": 9,
   "fields": {
+    "author": 1,
     "product": 3,
     "review_text": "Morbi in vehicula libero. Mauris sagittis ligula lacinia, suscipit ex sit amet, lacinia mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sapien massa, faucibus sed laoreet ut, dignissim et massa. Aliquam gravida porttitor sollicitudin.",
     "grade": 5,
@@ -161,6 +170,7 @@
   "model": "webapp.review",
   "pk": 10,
   "fields": {
+    "author": 1,
     "product": 4,
     "review_text": "Sed fringilla condimentum sapien, eget euismod lacus ullamcorper eu. Maecenas suscipit, enim non ullamcorper condimentum, diam nulla posuere turpis, ac commodo risus magna blandit libero. Sed sit amet ligula aliquet, rhoncus risus non, maximus odio. Sed aliquam id nisi id lobortis. Nulla vel ipsum id mi aliquet porta.",
     "grade": 5,
@@ -173,6 +183,7 @@
   "model": "webapp.review",
   "pk": 11,
   "fields": {
+    "author": 1,
     "product": 4,
     "review_text": "Donec nec aliquam felis, id fringilla magna. Fusce sit amet felis ex. Nunc nisl sem, aliquam a tempus vel, ullamcorper a nibh. Nulla imperdiet varius blandit.",
     "grade": 4,
@@ -185,6 +196,7 @@
   "model": "webapp.review",
   "pk": 12,
   "fields": {
+    "author": 1,
     "product": 4,
     "review_text": "Donec ac felis consectetur, tincidunt nunc vel, viverra lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque maximus erat sed massa lobortis molestie. Pellentesque scelerisque, dui id laoreet facilisis, tellus massa faucibus mauris, eu porttitor neque lorem vel dui. Duis sodales urna sed volutpat vulputate. Ut tristique blandit congue.",
     "grade": 4,
@@ -197,6 +209,7 @@
   "model": "webapp.review",
   "pk": 13,
   "fields": {
+    "author": 1,
     "product": 5,
     "review_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae massa bibendum, euismod sapien vel, iaculis orci. Donec a orci ut turpis euismod lobortis. Suspendisse vel volutpat velit. Integer faucibus consequat felis nec gravida. Aliquam finibus tincidunt felis, in tincidunt nunc.",
     "grade": 4,
@@ -209,6 +222,7 @@
   "model": "webapp.review",
   "pk": 14,
   "fields": {
+    "author": 1,
     "product": 5,
     "review_text": "Donec metus massa, consequat eget hendrerit in, ultrices ac risus. Aliquam in lorem volutpat, posuere odio eu, tincidunt dolor. Fusce vehicula egestas odio, vitae elementum nunc dignissim eu.",
     "grade": 4,
@@ -221,12 +235,26 @@
   "model": "webapp.review",
   "pk": 15,
   "fields": {
+    "author": 1,
     "product": 5,
     "review_text": "Morbi hendrerit odio eu accumsan sodales. Nullam in dapibus enim. Maecenas hendrerit massa in orci ullamcorper, ullamcorper accumsan elit rutrum. Quisque non lacus semper, sodales nulla et, pretium nibh. Quisque dapibus venenatis fermentum. Donec lectus dui, sollicitudin vel enim et, consequat laoreet orci. Mauris semper lacus leo, at imperdiet justo fringilla vitae.",
     "grade": 5,
     "moderated": false,
     "created": "2022-03-05T08:05:20.418Z",
     "updated": "2022-03-05T08:05:20.418Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 17,
+  "fields": {
+    "author": 1,
+    "product": 1,
+    "review_text": "Salam New York!",
+    "grade": 3,
+    "moderated": false,
+    "created": "2022-03-05T11:28:40.318Z",
+    "updated": "2022-03-05T11:28:40.319Z"
   }
 },
 {
