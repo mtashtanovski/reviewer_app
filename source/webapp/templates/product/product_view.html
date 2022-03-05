@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ product.title }}{% endblock %}
+
+{% block nav %}
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="{% url 'webapp:product_update' product.pk %}">Редактировать</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="{% url 'webapp:product_delete' product.pk %}">Удалить</a>
+    </li>
+{% endblock %}
+
+{% block content %}
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">{{ product.title }}</h1>
+                <p class="lead">Описание: {{ product.description }}</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    Категория: {{ product.get_category_display }}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                {% if product.picture %}
+                    <img src="{{ product.picture.url }}" alt="{{ product.title }}">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
