@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Вход{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <h2>Вход</h2>
+    </div>
+    <div class="container">
+        <form method="post" class="row g-3 text-center ">
+            {% include 'partials/form.html' with button_txt="Вход" %}
+        </form>
+    </div>
+{% endblock %}
