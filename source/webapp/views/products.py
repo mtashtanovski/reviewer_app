@@ -17,7 +17,12 @@ class IndexView(ListView):
 class ProductDetailView(DetailView):
     template_name = 'product/product_view.html'
     model = Product
-    context_object_name = 'product'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        reviews = self.object.reviews.order_by('created')
+        context['reviews'] = reviews
+        return context
 
 
 class ProductCreateView(CreateView):
