@@ -42,7 +42,7 @@
                 <div class="col-md-10">
                     <div class="card">
                         <div class="card-body">
-                            <p><h5 class="card-title">{{ review.grade }}</h5></p>
+                            <p><h5 class="card-title">{{ review.author }}</h5></p>
                             <p class="card-text">{{ review.review_text|truncatechars:100 }}</p>
                             <a href="{% url 'webapp:review_update' review.pk %}" class="btn btn-outline-info btn-sm">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">

@@ -1,7 +1,9 @@
+from django.contrib.auth import get_user_model
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 
 # Create your models here.
+User = get_user_model()
 CATEGORIES = [('other', 'Разное'),
               ('gadgets', 'Гаджеты'),
               ('auto', 'Авто'),
@@ -25,6 +27,13 @@ class Product(models.Model):
 
 
 class Review(models.Model):
+    author = models.ForeignKey(
+        User,
+        related_name="reviews",
+        default=1,
+        on_delete=models.CASCADE,
+        verbose_name="Автор"
+    )
     product = models.ForeignKey(
         'webapp.Product',
         on_delete=models.CASCADE,
