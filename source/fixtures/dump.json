@@ -1,0 +1,250 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "title": "Apple iPhone 13 Pro",
+    "category": "gadgets",
+    "description": "Apple iPhone 13 Pro смартфон 2021 года выпуска. Его размеры 146.7 x 71.5 x 7.7 и вес 204 г. Он оснащен Super Retina XDR OLED-дисплеем с размером 6.1\" дюйма. Разрешение составляет 1170 x 2532 пикселей, плотность пикселей 460 ppi. iPhone 13 Pro еще больше похож на своего предшественника — просто в силу того, что даже блок с камерами, немного изменившийся в iPhone 13 по сравнению с iPhone 12, здесь выглядит, на первый взгляд, точно так же, как год назад.",
+    "picture": "products/iphone-13-500x500.jpeg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "title": "Toyota Land Cruiser 200",
+    "category": "auto",
+    "description": "Обновленный Toyota Land Cruiser 200 вызывает трепет даже у человека, который еще не сидел за его рулем. Новая эффектная радиаторная решетка и бампер, а также задние фары с новым дизайном, являются центральными элементами нового экстерьера внедорожника. Новый Toyota Land Cruiser 200 имеет просторный и роскошный интерьер: высококачественные материалы, красивую отделку и множество вариантов посадки пассажиров.",
+    "picture": "products/toyota_lc_200.jpeg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "title": "СПА салон Маракуя",
+    "category": "health",
+    "description": "У здорового человека все три доши находятся в равновесии, если одна из них начинает преобладать, то появляться различного рода недомогания. Наш аюрведический центр и работающие у нас профессиональные специалисты из Индии с многолетним опытом помогут здоровому человеку поддержать его здоровье, а больному восстановить. Хорошее самочувствие, секреты долголетия, предотвращение негативных последствий, которые приносит стресс — воспользуйтесь теми преимуществами, которые дает Аюрведа.",
+    "picture": "products/spa_salon.jpeg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "title": "Образовательный центр Бао-Бао",
+    "category": "education",
+    "description": "Идейные соображения высшего порядка, а также новая модель организационной деятельности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач. Равным образом постоянный количественный рост и сфера нашей активности позволяет оценить значение соответствующий условий активизации. Не следует, однако забывать, что консультация с широким активом позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.",
+    "picture": "products/education.jpeg"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "title": "Путешествие по Кыргызстану",
+    "category": "other",
+    "description": "Повседневная практика показывает, что дальнейшее развитие различных форм деятельности требуют от нас анализа дальнейших направлений развития. С другой стороны постоянный количественный рост и сфера нашей активности требуют определения и уточнения направлений прогрессивного развития. Товарищи! укрепление и развитие структуры требуют определения и уточнения направлений прогрессивного развития. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции в значительной степени обуславливает создание дальнейших направлений развития.",
+    "picture": "products/touring.jpeg"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "review_text": "Шикарный аппарат, но очень дорого!",
+    "grade": 3,
+    "moderated": false,
+    "created": "2022-03-05T07:58:31.785Z",
+    "updated": "2022-03-05T07:58:48.029Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "review_text": "Камера здорово снимает видео.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T07:59:21.261Z",
+    "updated": "2022-03-05T07:59:21.261Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "review_text": "Плохо держит заряд!",
+    "grade": 3,
+    "moderated": false,
+    "created": "2022-03-05T08:00:03.999Z",
+    "updated": "2022-03-05T08:00:04.000Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "review_text": "Машина мечты! Просто Пушка! Ездил на своем почти 100К км. ДВС без нареканий!",
+    "grade": 5,
+    "moderated": false,
+    "created": "2022-03-05T08:01:19.798Z",
+    "updated": "2022-03-05T08:01:19.798Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "review_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae massa bibendum, euismod sapien vel, iaculis orci. Donec a orci ut turpis euismod lobortis. Suspendisse vel volutpat velit. Integer faucibus consequat felis nec gravida. Aliquam finibus tincidunt felis, in tincidunt nunc. Donec metus massa, consequat eget hendrerit in, ultrices ac risus. Aliquam in lorem volutpat, posuere odio eu, tincidunt dolor.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:01:49.759Z",
+    "updated": "2022-03-05T08:01:49.759Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "review_text": "Fusce vehicula egestas odio, vitae elementum nunc dignissim eu. Morbi hendrerit odio eu accumsan sodales. Nullam in dapibus enim. Maecenas hendrerit massa in orci ullamcorper, ullamcorper accumsan elit rutrum. Quisque non lacus semper, sodales nulla et, pretium nibh.",
+    "grade": 5,
+    "moderated": false,
+    "created": "2022-03-05T08:02:06.999Z",
+    "updated": "2022-03-05T08:02:06.999Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "review_text": "Vivamus id ante felis. Ut at leo in turpis tristique tincidunt. Donec maximus molestie magna at lobortis. Fusce quis urna id lacus ullamcorper eleifend. Aliquam ornare blandit lobortis. Etiam mollis arcu lacus, sodales vehicula quam facilisis et. Etiam enim ligula, euismod at congue a, feugiat eu nisl.",
+    "grade": 3,
+    "moderated": false,
+    "created": "2022-03-05T08:02:22.859Z",
+    "updated": "2022-03-05T08:02:22.859Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "review_text": "Nullam a gravida quam. Phasellus id viverra augue. Sed eu mattis odio. Maecenas nec mattis odio. Nullam varius, quam id finibus congue, tortor metus mattis ipsum, at facilisis augue erat semper lacus. Nullam molestie, ipsum eu lacinia auctor, erat tortor accumsan ligula, vitae lacinia nibh nulla vel velit.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:02:36.873Z",
+    "updated": "2022-03-05T08:02:36.873Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "review_text": "Morbi in vehicula libero. Mauris sagittis ligula lacinia, suscipit ex sit amet, lacinia mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sapien massa, faucibus sed laoreet ut, dignissim et massa. Aliquam gravida porttitor sollicitudin.",
+    "grade": 5,
+    "moderated": false,
+    "created": "2022-03-05T08:02:49.334Z",
+    "updated": "2022-03-05T08:02:49.334Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "review_text": "Sed fringilla condimentum sapien, eget euismod lacus ullamcorper eu. Maecenas suscipit, enim non ullamcorper condimentum, diam nulla posuere turpis, ac commodo risus magna blandit libero. Sed sit amet ligula aliquet, rhoncus risus non, maximus odio. Sed aliquam id nisi id lobortis. Nulla vel ipsum id mi aliquet porta.",
+    "grade": 5,
+    "moderated": false,
+    "created": "2022-03-05T08:03:04.119Z",
+    "updated": "2022-03-05T08:03:04.119Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "review_text": "Donec nec aliquam felis, id fringilla magna. Fusce sit amet felis ex. Nunc nisl sem, aliquam a tempus vel, ullamcorper a nibh. Nulla imperdiet varius blandit.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:03:17.125Z",
+    "updated": "2022-03-05T08:03:17.125Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "review_text": "Donec ac felis consectetur, tincidunt nunc vel, viverra lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque maximus erat sed massa lobortis molestie. Pellentesque scelerisque, dui id laoreet facilisis, tellus massa faucibus mauris, eu porttitor neque lorem vel dui. Duis sodales urna sed volutpat vulputate. Ut tristique blandit congue.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:03:30.972Z",
+    "updated": "2022-03-05T08:03:30.972Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "review_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae massa bibendum, euismod sapien vel, iaculis orci. Donec a orci ut turpis euismod lobortis. Suspendisse vel volutpat velit. Integer faucibus consequat felis nec gravida. Aliquam finibus tincidunt felis, in tincidunt nunc.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:04:15.473Z",
+    "updated": "2022-03-05T08:04:15.473Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "review_text": "Donec metus massa, consequat eget hendrerit in, ultrices ac risus. Aliquam in lorem volutpat, posuere odio eu, tincidunt dolor. Fusce vehicula egestas odio, vitae elementum nunc dignissim eu.",
+    "grade": 4,
+    "moderated": false,
+    "created": "2022-03-05T08:04:51.709Z",
+    "updated": "2022-03-05T08:04:51.709Z"
+  }
+},
+{
+  "model": "webapp.review",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "review_text": "Morbi hendrerit odio eu accumsan sodales. Nullam in dapibus enim. Maecenas hendrerit massa in orci ullamcorper, ullamcorper accumsan elit rutrum. Quisque non lacus semper, sodales nulla et, pretium nibh. Quisque dapibus venenatis fermentum. Donec lectus dui, sollicitudin vel enim et, consequat laoreet orci. Mauris semper lacus leo, at imperdiet justo fringilla vitae.",
+    "grade": 5,
+    "moderated": false,
+    "created": "2022-03-05T08:05:20.418Z",
+    "updated": "2022-03-05T08:05:20.418Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$a9Jt0fmLyBM0G1lRxbbbWv$ajzGTd8FR02r5qNyFv+udcV6Th8Rt99fBmAkau0ZgKI=",
+    "last_login": "2022-03-05T07:29:59.014Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-03-05T07:29:39.329Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
